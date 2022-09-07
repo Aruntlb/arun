@@ -9,9 +9,9 @@ public class Swap_Three_Number {
 		z=x-(y+z);
 		y=x-(y+z);
 		x=x-(y+z);
-		System.out.println(x);
-		System.out.println(y);
-		System.out.println(z);
+		System.out.println("x ;"+x);
+		System.out.println("y ;"+y);
+		System.out.println("z ;"+z);
 		
 
 	}
