@@ -1,4 +1,4 @@
-package sample1;
+package Loop;
 import java.util.Scanner;
 
 public class Prime_Num {

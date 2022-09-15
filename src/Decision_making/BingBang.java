@@ -1,4 +1,4 @@
-package If_condition;
+package Decision_making;
 
 public class BingBang {
 
