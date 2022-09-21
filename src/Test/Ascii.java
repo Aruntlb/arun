@@ -9,6 +9,7 @@ public class Ascii {
 		{
 			System.out.println(ch);
 			ch++;
+			
 		}
 
 	}

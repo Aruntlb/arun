@@ -16,7 +16,7 @@ public class Decimal_to_binary {
 		}
 		for(int j=i-1;j>=0;j--) {
 			System.out.println(b[j]);
-		}
+		} 
 
 	}
 
