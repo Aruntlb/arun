@@ -13,9 +13,10 @@ public class Square_area {
 		// TODO Auto-generated method stub
 		square o=new square();
 		square o1=new square();
+		//o1.a=2;
 		
 		System.out.println(o.area(5));
-		//System.out.println(o1.area());
+		System.out.println(o1.area(2));
 		
 
 	}
