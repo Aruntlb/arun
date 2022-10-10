@@ -20,6 +20,7 @@ for(int i=0;i<b.length;i++) {
 		}
 	}
 }System.out.println(Arrays.toString(b));
+//System.out.println(Arrays.toString(a))
 
 
 
