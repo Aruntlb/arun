@@ -37,6 +37,7 @@ public class Lift_project {
 		if(floor<=10) {
 		ch1=s.next().charAt(0);
 		if(ch1=='u'||ch1=='U') {
+			
 		for(int i=0;i<a.length;i++) {
 			if(b[i]==1) {
 				c[i]=a[i];
@@ -78,16 +79,19 @@ public class Lift_project {
 		
 	}
 		else if(ch1=='d'||ch1=='D') {
+			
 			for(int i=0;i<a.length;i++) {
 				if(b[i]==0) {
-					c[i]=a[i];
+					c[i]=a[i];///
 					g[i]=n;
 					System.out.println(g[i]+" downwards ="+a[i]);
 					}
 				n++;
 			}
+			
+			
 			int f=9,l=0,min=0,min2=c[0],m=0;
-			for(int i=0;i<a.length;i++) {
+			for(int i=0;i<c.length;i++) {
 				 if(floor==c[i]&&c[i]!=0) {
 					   l=c[i];
 					   break;
@@ -101,9 +105,12 @@ public class Lift_project {
 					 l=min;
 					 m++;
 			}
+				 else if(c[i]>0) {
+					 min2=c[i];
+				 }
 			}if(l==0) {
-				for(int i=0;i<a.length;i++) {
-					if(c[i]<min2) {
+				for(int i=0;i<c.length;i++) {
+					if(c[i]<min2&&c[i]!=0) {
 						min2=c[i];
 					}
 				}
@@ -112,16 +119,14 @@ public class Lift_project {
 			
 			System.out.println("lift "+l);
 		
-			int highest=0;
+			
 			
 			for(int i=0;i<a.length;i++) {
 				 
 				  if(l==c[i]) {
 						System.out.println("your lift number  is : "+g[i]);
 					}
-				  else if(l==0) {
-					  System.out.println("Please wait");
-				  }
+				
 				 }
 		}
 		}
