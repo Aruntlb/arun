@@ -15,7 +15,7 @@ class son extends father{
 public class Single_inheritance {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Static key word can not be used in inheritance
 		//son o =new son();
 		son o=new son();
 		o.house();
