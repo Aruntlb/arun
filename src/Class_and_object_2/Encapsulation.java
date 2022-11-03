@@ -10,7 +10,7 @@ class manager extends employee{
 }
 public class Encapsulation {
 	public String name="paul";
-	String phon="789654";
+	protected String phon="789654";
 	private String password="12345";
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -23,7 +23,8 @@ public class Encapsulation {
 		System.out.println(o1.password);
 //		manager o2=new manager();           we cant extends the private variable
 //		System.out.println(o.password);
-
+//private with the class
+		//protected acesss in other package in class
 	}
 
 }
