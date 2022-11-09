@@ -4,7 +4,7 @@ public class Assignment_37_spy_number {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a=13,r,m=1,add=0;
+		int a=123,r,m=1,add=0;
 		while(a>0) {
 		r=a%10;
 		m=m*r;

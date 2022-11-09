@@ -11,7 +11,7 @@ public class Assignment_25_Number_palindrome {
 			
 			
 			a=a/10;
-		}System.out.print(rev);
+		}System.out.println(rev);
 		if(palin==rev) {
 			System.out.println("palindrome");
 		}else {

@@ -3,7 +3,7 @@ package Assignment;
 public class Assignment_35_Strong_Number {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// 145=1!+4!+5!=145
 		int num=145,originalnum=num,fact,rem,i,sum=0;
 		while(num>0)
 		{
@@ -20,7 +20,7 @@ if(sum==originalnum) {
 	System.out.println(originalnum+" is strong number");
 }
 	else {
-		System.out.println(originalnum+"is not a strong number");
+	System.out.println(originalnum+"is not a strong number");
 	}
 }
 	}

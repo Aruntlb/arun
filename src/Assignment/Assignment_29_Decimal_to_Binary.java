@@ -9,7 +9,7 @@ public class Assignment_29_Decimal_to_Binary {
 		while(n>0)
 		{
 			b[i]=n%2;
-			
+			System.out.println(b[i]);
 			n=n/2;
 			i++;//4
 			

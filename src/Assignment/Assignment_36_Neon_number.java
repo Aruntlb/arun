@@ -3,7 +3,9 @@ package Assignment;
 public class Assignment_36_Neon_number {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// 9
+		//9*9=81
+		//8+1=9
 		int a=9,r,s=0;
 		int c=a*a;
 		while(c>0)

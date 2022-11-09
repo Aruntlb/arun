@@ -7,6 +7,7 @@ public class Assignment_23_Printing_the_number_in_reverse_order {
 		int a=12345,num,rev=0;
 		while(a>0) {
 			num=a%10;
+			System.out.println(num);
 			rev=(rev*10)+num;
 			
 			
