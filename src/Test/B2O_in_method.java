@@ -2,8 +2,9 @@ package Test;
 
 public class B2O_in_method {
 	void find(int a) {
+		
 	int rem,store=0,i=1,c=0;
-	int b[]=new int[2];
+	int b[]=new int[1];
 	while(a!=0) {
 		rem=a%10;
 
@@ -19,7 +20,7 @@ public class B2O_in_method {
 		a=a/10;
 	}
 	for(int o=b.length-1;o>=0;o--) {
-		System.out.print(b[o]);
+		System.out.print("OCTAL NUMBER   "+b[o]);
 	}
 	}
 	
